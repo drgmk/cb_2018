@@ -4,20 +4,21 @@ Getting started
 install photodynam
 ------------------
 * Clone photodynam from https://github.com/dfm/photodynam
-* Build by typing >make
-
-install rebound
----------------
-* >pip3 install rebound --user
+* Go into the photodynam directory ('cd photodynam')
+* Build by typing 'make'
 
 modules
 -------
-* this needs to be done with each login, or saved with >module save and then restored with >module restore
-* >module load GCC/6.4.0-2.28 OpenMPI/2.1.1 Python/3.6.3 IPython/6.2.1-Python-3.6.3 matplotlib astropy
+* this needs to be done with each login, or saved with 'module save' and then restored with 'module restore'
+* module load GCC/6.4.0-2.28 OpenMPI/2.1.1 Python/3.6.3 IPython/6.2.1-Python-3.6.3 matplotlib astropy
+
+install rebound
+---------------
+* pip3 install rebound --user
 
 run jupyter
 -----------
-* >jupyter notebook
+* jupyter notebook
 
 Files
 =====
